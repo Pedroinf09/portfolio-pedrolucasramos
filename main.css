@@ -1,0 +1,485 @@
+/*Códigos Base*/
+body{
+  background-color: rgb(0, 0, 0)
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+ 
+}
+
+hr {
+  width: 100%;
+  height: 35px;
+  background-color:rgba(29, 4, 75, 0.822);
+  margin-top: 0px;
+  margin-bottom: 5px;
+padding-top: 15px;
+  border-color: rgba(29, 4, 75, 0.822);
+  }
+
+h1{ font-size: 150px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: aliceblue; 
+}
+
+
+.hero{
+  height: 100px;
+  width: 1200px;
+  background-size: cover;
+  background-position: center
+}
+.btn{ font-size: 100px;
+}
+
+
+
+ .borda{ max-width: 1280px;
+  margin: 0 auto;
+ }
+/*Fim dos Códigos Base*/
+
+    /*Cabeçario*/
+    header{
+    padding:  35px 5%; 
+    height: 100px;
+    width: 4000px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    
+   }
+   header > .borda{ display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0% 50px;
+  
+  }
+  header {
+   
+    background-color: #000000;
+    
+  }
+
+  
+   
+
+.inc { color:#808080 ;
+}
+.inc header nav h2{
+color: #fffdfd;
+font-size: 25px;
+}
+.inc header nav li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 15px;
+  Border: 2px solid transparent;
+   padding: 0 25px;
+}
+
+.inc header nav li a{
+  color: #808080;
+  padding-left: 200px;
+  text-decoration: none;
+  
+}
+
+.inc header nav li a :hover{
+  color: #fffdfd;
+  transform: scale(1.05);
+
+
+}
+.org{ 
+  display: inline-block;
+  justify-content: space-between;
+ text-indent: 40px;
+ Align-items: center;
+ 
+ }/*IMAGEM INICIO*/
+.inc header nav img{
+padding-left: 900px;
+padding-bottom: 200px;
+padding-top: 100px;
+
+}
+.inc header nav img{
+  width: 1200px;
+}/* (FIM)IMAGEM INICIO*/
+ 
+ 
+ /* Textos do Início*/
+ section.reult {
+  padding: 40px 0%; 
+}
+
+
+ .conteudo{ 
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translate(-50%);
+  width: 1390px;
+  height: 900px;
+  
+ }
+
+ 
+ .conteudo h1{
+  color: rgb(255, 255, 255);
+  font-size: 65px;
+  text-align: center;
+  Line-height: 60px;
+text-align: center;
+padding: 0 40px;
+padding-left: 1000px;
+text-shadow:2px 2px 4px rgba(255, 255, 255, 0.555);
+
+ }
+.conteudo h3{ 
+  color: #808080;
+  font-size: 25px;
+  margin-bottom: 50%;
+ text-align: center;
+ padding-left: 1000px;
+ padding-bottom: 200px;
+}
+.conteudo h3 p{ 
+  color: #fffdfd;
+  font-size: 28px;
+  
+}
+ .conteudo h4{
+  color: #808080;
+  letter-spacing: 2px;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 1000px;
+ }
+ .imgcb{
+ 
+  width: 30px;
+ }
+ 
+ /*CONTEUDO-CORES e ETC...*/
+ .sp1{
+  color: rgb(53, 22, 111);
+  font-size:50px ;
+  text-shadow:2px 2px 4px rgba(53, 22, 111, 0.678);
+}
+.sp2{
+  color:rgb(53, 22, 111);
+  font-size:30px ;
+  text-shadow:2px 2px 4px rgba(53, 22, 111, 0.678);
+}
+.sp3{
+  color:rgb(53, 22, 111);
+  font-size:75px ;
+}
+.sp4{
+  color: #ffffff;
+  font-size: 20px;
+}
+.sp5{
+  color:rgb(53, 22, 111);
+  font-size: 25px;
+}
+
+
+
+   /* Sobre mim*/
+
+   .about{ 
+    
+    background-color: #0c0c0c;
+    
+    }
+    .about img{
+    Height: auto;
+    Width:330px;
+     align-items: center;
+    padding-right: 20px;}
+
+    
+    .principal{
+    Width: 730px;
+    Max-width: 95%;
+    Margin: 0 auto;
+    Display: flex; 
+    Align-items: center;
+    Justify-content: space-around;
+    }
+    
+    /* Texto "Sobre Mim"*/
+    .about-texto{
+      Width: 550px;
+      }
+      
+      .about-texto::before{/*TEXTO ANIMAÇÃO*/
+        position: absolute;
+        top: 0;
+        left: 400px;
+        width: 100%;
+        height: 80%;
+        background: black;
+        animation: showRight 2s ease forwards ;
+        margin-top: 170px;
+      }
+      @keyframes showRight{
+        100%{
+          width: 0;
+        }
+      }/*TEXTO ANIMAÇÃO FIM*/
+    .about-texto h2{
+    color: aliceblue;
+    Font-size: 75px;
+    Text-transform: captalize;
+    Margin-bottom:20px;
+    line-height: 60px;
+    }
+    .about-texto p{
+    color: #a0a0a0;
+    Letter-spacing: 1px;
+    Line-height: 28px;
+    Font-size: 18px;
+    Margin-bottom: 45px;
+    }
+   .about i a{
+    padding-left: 120px;
+    color: #fffdfd;
+    width: 11px;
+  Background-color: rgb(53, 22, 111);
+  Line-height: 5px ;
+  border: 1px solid #fffdfd;
+  border-radius: 15px;
+   }
+.about i a h2{
+    color: #fffdfd;
+    list-style: none;
+        justify-content: space-between;
+display: inline-block;
+font-size: 25px;
+padding-right: 120px;
+}
+
+/* Pessoal (INÍCIO)*/
+.hobb{
+  color: #fffdfd;
+  font-size: 70px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 35px;
+}
+
+section{
+  padding-top: 140px;
+}
+
+/*HOBBIE 1*/
+.hob {
+  position: relative;
+  width: 1350px;
+  height: 300px;
+  background-color: #000000;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  box-shadow: 0 0 0 5px #3b0c3b9d;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  padding-left: 55px;
+}
+
+.hob svg {
+  width: 48px;
+  fill: #333;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.hob:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.hob-cont1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #000000;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.hob:hover .hob-cont1 {
+  transform: rotateX(0deg);
+}
+
+.titulo1 {
+  margin: 0;
+  font-size: 24px;
+  color:rgba(255, 255, 255, 0.719);
+  font-weight: 700;
+  padding-left: 55px;
+}
+
+.hob:hover svg {
+  scale: 0;
+}
+
+.text1{
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #6d6d6d;
+  line-height: 1.4;
+  padding-left: 55px;
+  width: 500px;
+}
+/*HOBBIE 2*/
+    
+.hob2 {
+  position: relative;
+  width: 1350px;
+  height: 300px;
+  background-color: #000000;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  box-shadow: 0 0 0 5px #3b0c3b9d;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+padding-left: 30px;
+}
+
+.hob2 svg {
+  width: 48px;
+  fill: #333;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.hob2:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.hob-cont2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #000000;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+
+.hob2:hover .hob-cont2 {
+  transform: rotateX(0deg);
+}
+
+.titulo2 {
+  margin: 0;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.719);
+  font-weight: 700;
+  padding-left: 55px;
+}
+
+.hob2:hover svg {
+  scale: 0;
+}
+
+.text2{
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #6d6d6d;
+  line-height: 1.4;
+  width: 500px;
+  padding-left: 55px;
+}
+/*FIM DO HOBBIE*/
+
+ 
+
+ /*Contato Início*/
+ 
+ .Contato{
+   text-align: center;
+    display: flex;
+  list-style: none;
+  Border: 2px solid transparent;
+width: 1150px;
+ }
+ 
+ 
+.Fale-comigo h4{
+    color:rgb(42, 2, 116);
+    font-size: 55px;
+    margin: auto;
+    text-align: center;
+    margin-left: 400px;
+    margin-bottom: 100px;
+    text-shadow: 2px 2px  4px rgba(56, 56, 184, 0.397);
+    margin-right: 100px;
+}
+.Fale-comigo h4 :hover{
+  color: #fffdfd;
+  transform: scale(1.05);
+}
+.Fale-comigo h3{
+    color: #808080;
+    margin: auto;
+    margin-left: 300px;
+    margin-bottom: 100px;
+}
+.Fale-comigo h3:hover{
+    color: #fffdfd;
+  transform: scale(1.05);
+}
+.cntt{
+  padding-left: 300px;
+ 
+}
+.insta{/*INSTAGRAM*/
+  font-size: 15px;
+  color: #ffffff;
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: space-between;
+  
+}
+.insta:hover{
+  color: #fffdfd;
+  transform: scale(1.05);
+}
+/*ANIMAÇÕES*/
+.Zap{
+  text-decoration: none;
+  font-size: 23px;
+  color: #ffffff;
+  
+}
+.Zap:hover{
+  color: #fffdfd;
+  transform: scale(1.05);
+}
